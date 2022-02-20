@@ -20,6 +20,23 @@ Block diagram includes microcontroller,LCD display,keypad and motor drive compon
   - Enter
   - Escape
 
+## High level requirements
+
+|ID | Description |
+|----|------------|
+|HLR1|
+
+## Low level requirements
+
+
+
+
+
+
+
+
+
+
 # CASE STUDY – 2
 
 ## ATM MACHINE SECURITY SYSTEM USING GSM AND MEMS SENSOR
