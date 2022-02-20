@@ -5,6 +5,7 @@
 
 ### Block diagram:
 
+![ATM](https://user-images.githubusercontent.com/47153476/154840587-730e8c1f-36db-4e2e-a464-6cd413f43cae.PNG)
 
 
 
