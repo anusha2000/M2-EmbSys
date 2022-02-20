@@ -9,26 +9,30 @@
 Block diagram includes microcontroller,LCD display,keypad and motor drive components.
 ### Components description:
 
-* Microcontroller: This is the CPU (central processing unit) of our project. We are going to use a microcontroller of 8051 family. The various functions of microcontroller are like:
-  - Reading the digital input from Keypad
-  - Sending this data to LCD so that the person operating this project should read the password 
-  - Sensing the password using keypad and to check whether it is a correct password or a wrong password and rotate the stepper motor if the password entered is a correct password.
+* Microcontroller: This is the CPU (central processing unit) of our project. We are going to use a microcontroller of 8051 family. 
 
 * LCD:This section is basically meant to show up the status of the project. This project makes use of Liquid Crystal Display to display / prompt for necessary information.
-* Keypad: User will enter the password using the keypad. Various keys of keypad are as following,
-  - 0 to 9
-  - Enter
-  - Escape
+* Keypad: User will enter the password using the keypad. 
 
 ## High level requirements
 
 |ID | Description |
 |----|------------|
-|HLR1|
+|HLR1|Allow user to enter the password using keypad|
+|HLR2|Microcontroller should sense the password using keypad|
+|HLR3|Microcontroller send the data to LCD so that the person should read the password|
+|HLR4|if the entered password is correct,then rotate the stepper motor|
+
 
 ## Low level requirements
 
-
+|ID | Description |
+|----|------------|
+|LLR1|Allow user to enter various keys using keypad|
+|    |a) 0 to 9 |
+|    |b) Enter  |
+|    |c) Escape |
+|LLR2|LCD should displays the status of the keypad|
 
 
 
