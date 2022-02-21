@@ -4,35 +4,39 @@
 
 ### Block diagram:
 
-![password](https://user-images.githubusercontent.com/47153476/154852732-e23035f8-e4ae-4257-86ef-15503728255f.PNG)
+![password](https://user-images.githubusercontent.com/47153476/154882681-b5d650e8-3893-48fe-9f06-07cbde8d7256.PNG)
 
-Block diagram includes microcontroller,LCD display,keypad and motor drive components.
+Block diagram includes microcontroller,LCD display,touch screen,relay,GSM modem,buzzer and motor drive components.
 ### Components description:
 
 * Microcontroller: This is the CPU (central processing unit) of our project. We are going to use a microcontroller of 8051 family. 
 
 * LCD:This section is basically meant to show up the status of the project. This project makes use of Liquid Crystal Display to display / prompt for necessary information.
-* Keypad: User will enter the password using the keypad. 
+* Touch screen: User will enter the password using the keypad. 
+* GSM modem: which is used to send alert message to the autority persons.
+
 
 ## High level requirements
 
 |ID | Description |
 |----|------------|
-|HLR1|Allow user to enter the password using keypad|
-|HLR2|Microcontroller should sense the password using keypad|
+|HLR1|Allow user to enter the password using touch screen pad|
+|HLR2|Microcontroller should sense the password using touch screen pad|
 |HLR3|Microcontroller send the data to LCD so that the person should read the password|
 |HLR4|if the entered password is correct,then rotate the stepper motor|
+|HLR5|GSM modem should send the alert sms to the authority person|
 
 
 ## Low level requirements
 
 |ID | Description |
 |----|------------|
-|LLR1|Allow user to enter various keys using keypad|
+|LLR1|Allow user to enter various keys using touch screen|
 |    |a) 0 to 9 |
 |    |b) Enter  |
 |    |c) Escape |
-|LLR2|LCD should displays the status of the keypad|
+|LLR2|LCD should displays the status of the touch screen pad|
+|LLR3|Buzzer should turn on whenever the bad happens|
 
 
 
