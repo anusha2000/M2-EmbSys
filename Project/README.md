@@ -39,3 +39,6 @@ Here LED's are used to reprent the traffic signals.In normal traffic system, we 
 
 - IR sensors:
 In this system IR sensors used to measure the traffic density. We have to arrange one IR sensor for each road; these sensors always sense the traffic on that particular road. All these sensors are interfaced to the microcontroller. Based on these sensors, controller detects the traffic and controls the traffic system.
+
+## Applications
+
