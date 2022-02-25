@@ -2,6 +2,8 @@
 
 ![traffic](https://user-images.githubusercontent.com/47153476/155757605-6d51897b-782b-45b6-bc5d-fe4afba0b5ee.PNG)
 
+This circuit consists of 4 IR sensors, atmega8 microcontroller, 4 traffic lights.
+
 ## Components Description
 
 ### ATmega8:
