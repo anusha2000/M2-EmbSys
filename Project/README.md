@@ -48,6 +48,9 @@ In this system IR sensors used to measure the traffic density. We have to arrang
 Density based traffic signal control have many advantages compared totime based traffic control.
 * We can save considerable amount of time.
 * We can avoid unnecessary occurence of traffic jams which causes public inconvenience.
+* Low power consumption.
+* It provide easy access in the traffic light.
+* Low cost to design the circuit, maintenance of the circuit is good.
 
 ## Applications
 * There is no need of traffic inspector at the junctions for supervising the traffic to run smoothly.
