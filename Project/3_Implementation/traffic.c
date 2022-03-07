@@ -1,7 +1,7 @@
 /**
  * @file traffic.c
  * @author anusha patil (anushapatil@domain.com)
- * @brief 
+ * @brief density based traffic control system
  * @version 0.1
  * @date 2022-03-07
  * 
