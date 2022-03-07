@@ -33,7 +33,7 @@ DUDEFLAGS += -U flash:w:$(MAIN_HEX_PATH):i
 SRC = $(MAIN_APP).c
 SRC += 
 
-# The headers files needed for building the applicationp
+# The headers files needed for building the application
 INCLUDE = -I. 
 
 # commands Section

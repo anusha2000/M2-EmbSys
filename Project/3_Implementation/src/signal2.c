@@ -1,7 +1,7 @@
 /**
  * @file signal2.c
  * @author anusha patil (anushapatil@domain.com)
- * @brief 
+ * @brief perform this function when the traffic density is high at road 2
  * @version 0.1
  * @date 2022-03-07
  * 
