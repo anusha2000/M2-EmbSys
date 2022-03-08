@@ -1,6 +1,7 @@
 # Circuit diagram
 ![circuit_diagram](https://user-images.githubusercontent.com/47153476/157261236-cbbb542e-26a5-405e-a2ac-a112edce1ce1.PNG)
 
+## Results:
 ### Case 1: When Traffic density is high at Road-1 (G1-ON,Y2-ON,R3-ON & R4-ON)
 ![1](https://user-images.githubusercontent.com/47153476/157268509-681b85a3-3ff0-4e2a-92d5-564702bd02de.PNG)
 
