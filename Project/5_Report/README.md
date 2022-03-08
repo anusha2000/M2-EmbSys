@@ -12,6 +12,8 @@
      * [High Level Requirements](#high-level-requirements)
    
      * [Low Level Requirements](#low-level-requirements)
+
+     * [SWOT Analysis](#swot-analysis)
     
   5. [Block Diagram](#block-diagram)
    
@@ -26,10 +28,16 @@
   8. [Description of schematic](#description-of-schematic)
    
   9. [Flow chart](#flow-chart)
-   
-  10. [TestPlan and Output](#test-plan-and-output)
+
+  10. [Testplan](#testplan)
+      
+      * [High Level Testplan](#high-level-testplan)
+
+      * [Low Level Testplan](#low-level-testplan)
    
   11. [Results](#results)
+
+  12. [Application and Advantages](#application-and-advantages)
    
    
 
@@ -56,6 +64,23 @@ The main objective of this project is to control the traffic lights or signal ba
 |HLR1|LLR1|If two of the signals are red, the other one should be yellow and another one should be green|
 |HLR2|LLR1|If there is traffic on any road then that particular sensor should detect the traffic|
 |     |LLR2|Then give green signal to that path and red to all other paths|
+
+## SWOT Analysis
+![swot](https://user-images.githubusercontent.com/47153476/157236339-3a8b6de7-9762-450c-b877-d9f35b6cee24.PNG)
+
+## 4W's & 1H
+### Who
+This is used by all the citizens.
+### What
+Traffic control is supervision of the movement of people, goods, or vehicles to ensure efficiency and safety.
+### Where
+Traffic control system can be installed in any highways and in cross sections.
+### Why
+Road Traffic Signal Controllers provide safe and smooth road traffic by conducting road traffic control in accordance with the time of day and the road traffic conditions.
+### How
+By using sensors we can sense the traffic density in the path and do clear that path.
+
+
 
 ## Block Diagram
 ![traffic](https://user-images.githubusercontent.com/47153476/157258823-d98c107e-3678-4e4e-a3e4-803ae76c10ca.PNG)
@@ -91,8 +116,32 @@ This circuit consists of components like
 ## Flow chart
 ![flowchart1](https://user-images.githubusercontent.com/47153476/157250811-38f52d40-90bd-4d28-8541-006d4052a1b5.PNG)
 
-## Testplan and Output
+## Testplan
+### High Level Testplan
+| ID | Description | Status |
+|----|-------------|--------|
+| HLT1|traffic signal should work on time basis|Implemented|
+|HLT2|IR sensor should sense the traffic density and take necessary steps|Implemented|
 
+### Low Level Testplan
+| ID | Description | expected output | actual output | Status |
+|----|-------------|---------------|----------------|----------|
+|LLT1|If density is high at road 1|G1: ON|G1: ON|Implemented|
+|    |                         |Y2: ON|Y2: ON|            |
+|    |                         |R3: ON|R3: ON|            |
+|    |                         |R4: ON|R4: ON|            |
+|LLT2|If density is high at road 2|G2: ON|G2: ON|Implemented|
+|    |                         |Y3: ON|Y3: ON|            |
+|    |                         |R4: ON|R4: ON|            |
+|    |                         |R1: ON|R1: ON|            |
+|LLT3|If density is high at road 3|G3: ON|G3: ON|Implemented|
+|    |                         |Y4: ON|Y4: ON|            |
+|    |                         |R1: ON|R1: ON|            |
+|    |                         |R2: ON|R2: ON|            |
+|LLT4|If density is high at road 4|G4: ON|G4: ON|Implemented|
+|    |                         |Y1: ON|Y1: ON|            |
+|    |                         |R2: ON|R2: ON|            |
+|    |                         |R3: ON|R3: ON|            |
 
 ## Results
 |Case 1: traffic density is high at Road-1 | Case 2: traffic density is high at Road-2 |
@@ -103,13 +152,12 @@ This circuit consists of components like
 | Case 3: traffic density is high at Road-3 | Case 4: traffic density is high at Road-4 |
 |------------|------------------|
 |![3](https://user-images.githubusercontent.com/47153476/157268579-65023b1b-cf57-4285-9712-c3ac4a9f8ba2.PNG)|![4](https://user-images.githubusercontent.com/47153476/157268598-22dbbe1f-ffa6-4cc8-9b48-cc51bca5388a.PNG)|
+## Application and Advantages
+### Applications
+* There is no need of traffic inspector at the junctions for supervising the traffic to run smoothly.
+* The intelligent work which is done by traffic inspector will be perfectly done by microcontroller in the circuit with the help of sensors and the program which is coded to the microcontroller.
 
-
-
-
-
-
-## Advantages
+### Advantages
 Density based traffic signal control have many advantages compared totime based traffic control.
 * We can save considerable amount of time.
 * We can avoid unnecessary occurence of traffic jams which causes public inconvenience.
@@ -117,6 +165,4 @@ Density based traffic signal control have many advantages compared totime based 
 * It provide easy access in the traffic light.
 * Low cost to design the circuit, maintenance of the circuit is good.
 
-## Applications
-* There is no need of traffic inspector at the junctions for supervising the traffic to run smoothly.
-* The intelligent work which is done by traffic inspector will be perfectly done by microcontroller in the circuit with the help of sensors and the program which is coded to the microcontroller.
+
