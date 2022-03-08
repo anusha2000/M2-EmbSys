@@ -13,17 +13,7 @@
     
   4. [Block Diagram](#block-diagram)
    
-  5. [Design Metrics](#design-metrics)
-   
-     * [Power Dissipation](#power-dissipation)
-   
-     * [Performance](#performance)
-    
-     * [Process Deadlines](#process-deadlines)
-    
-     * [User Interface](#user-interface)
-   
-   6. [Components](#components)
+  5. [Components](#components)
    
        * [Sensors](#sensors)
        
@@ -31,9 +21,9 @@
        
        * [User Interaction](#user-interaction)
    
-   7. [Circuit Diagram](#circuit-diagram)
+   6. [Circuit Diagram](#circuit-diagram)
   
-   8. [Description of schematic](#description-of-schematic)
+   7. [Description of schematic](#description-of-schematic)
     
    9. [System Testing](#system-testing)
    
