@@ -69,15 +69,15 @@ The main objective of this project is to control the traffic lights or signal ba
 ![swot](https://user-images.githubusercontent.com/47153476/157236339-3a8b6de7-9762-450c-b877-d9f35b6cee24.PNG)
 
 ## 4W's & 1H
-### Who
+#### Who
 This is used by all the citizens.
-### What
+#### What
 Traffic control is supervision of the movement of people, goods, or vehicles to ensure efficiency and safety.
-### Where
+#### Where
 Traffic control system can be installed in any highways and in cross sections.
-### Why
+#### Why
 Road Traffic Signal Controllers provide safe and smooth road traffic by conducting road traffic control in accordance with the time of day and the road traffic conditions.
-### How
+#### How
 By using sensors we can sense the traffic density in the path and do clear that path.
 
 
