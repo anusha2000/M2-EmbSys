@@ -16,6 +16,11 @@
 #define F_CPU 8000000UL
 #include <avr/io.h>
 #include <util/delay.h>
+#include "signal1.h"
+#include "signal2.h"
+#include "signal3.h"
+#include "signal4.h"
+
 
 #define R1 PB0
 #define Y1 PB1
