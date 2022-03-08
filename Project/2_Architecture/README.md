@@ -1,5 +1,5 @@
 # Block Diagram
-![traffic](https://user-images.githubusercontent.com/47153476/157234890-8da64e71-f0a3-48b2-9089-54ad521b2016.PNG)
+![traffic](https://user-images.githubusercontent.com/47153476/157250405-5a8e681f-4ce1-4661-b8dd-31260e143837.PNG)
 
 
 This circuit consists of 4 IR sensors, atmega8 microcontroller, 4 traffic lights.
@@ -17,11 +17,10 @@ Here LED's are used to reprent the traffic signals.In normal traffic system, we 
 In this system IR sensors used to measure the traffic density. We have to arrange one IR sensor for each road; these sensors always sense the traffic on that particular road. All these sensors are interfaced to the microcontroller. Based on these sensors, controller detects the traffic and controls the traffic system.
 
 ## Structural Diagram
-![structural](https://user-images.githubusercontent.com/47153476/157234909-8ac75052-ee4d-4ee1-b91a-920f1d396a79.PNG)
+![structural](https://user-images.githubusercontent.com/47153476/157250426-b97a0bd1-647c-489d-a448-c44b6457ffca.PNG)
 
 ## Behavioral Diagram
-![behavioral](https://user-images.githubusercontent.com/47153476/157234922-fd603c16-8cc7-4450-a3ef-1877a566a259.PNG)
+![behavioral](https://user-images.githubusercontent.com/47153476/157250796-7b7d0aea-ca1c-476c-88bf-a20cce2307f3.PNG)
 
 # Flowchart
-![flow](https://user-images.githubusercontent.com/47153476/157204899-272b0ed6-edbb-47d3-aecc-c6e5a547985c.PNG)
-![flowchart1](https://user-images.githubusercontent.com/47153476/157247453-ace1e9f2-2355-4a3f-a0ea-b0e929b6a550.PNG)
+![flowchart1](https://user-images.githubusercontent.com/47153476/157250811-38f52d40-90bd-4d28-8541-006d4052a1b5.PNG)
