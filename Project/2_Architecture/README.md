@@ -24,3 +24,4 @@ In this system IR sensors used to measure the traffic density. We have to arrang
 
 # Flowchart
 ![flow](https://user-images.githubusercontent.com/47153476/157204899-272b0ed6-edbb-47d3-aecc-c6e5a547985c.PNG)
+![flowchart1](https://user-images.githubusercontent.com/47153476/157247453-ace1e9f2-2355-4a3f-a0ea-b0e929b6a550.PNG)
