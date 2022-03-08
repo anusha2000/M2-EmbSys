@@ -20,18 +20,18 @@
        * [Sensors](#sensors)
        
        * [Actuators](#actuators)
+
+  7. [Circuit Diagram](#circuit-diagram)
+
+  8. [Description of schematic](#description-of-schematic)
    
-   7. [Flow chart](#flow-chart)
+  9. [Flow chart](#flow-chart)
    
-   8. [Circuit Diagram](#circuit-diagram)
-  
-   9. [Description of schematic](#description-of-schematic)
-    
-   10. [Results](#results)
+  10. [TestPlan and Output](#test-plan-and-output)
    
-   10. [System Testing](#system-testing)
+  11. [Results](#results)
    
-   10. [Test Plan and Output](#test-plan-and-output)
+   
 
 ## Abstract
 In present, vehicular traffic is increasing throughout the world, especially in large urban areas. As the number of road user's increase constantly and current resources & infrastructures being limited; a smart traffic control will become a very important issue in the future. These needs have led to an ever increasing demand for an " intelligent " traffic control system. Therefore, optimization of traffic control to better accommodate this increasing demand is needed. This project will demonstrate the optimization of traffic lights in a city using wireless sensors. Traffic light optimization is a tough problem. With multiple junctions, the complexity increases as the state of one light node influences the flow of traffic towards many other nodes. proposing a traffic light controller that allows us to control and study different situations of traffic density. We sense the density of traffic using infra-red sensors. The key role behind the implementation of the " Traffic density based light control system " is to make use of an ATmega8 controller which performs processing of the real time data provided by the infra-red sensors, eventually controlling the traffic flow via the LED traffic lights.
@@ -90,6 +90,9 @@ This circuit consists of components like
 
 ## Flow chart
 ![flowchart1](https://user-images.githubusercontent.com/47153476/157250811-38f52d40-90bd-4d28-8541-006d4052a1b5.PNG)
+
+## Testplan and Output
+
 
 ## Results
 |Case 1: traffic density is high at Road-1 | Case 2: traffic density is high at Road-2 |
