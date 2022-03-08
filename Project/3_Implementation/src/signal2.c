@@ -9,11 +9,11 @@
  * 
  */
 
-#include "main.h"
+#include "signal2.h"
 void traffic_signal2()
 {
-	PORTB |= (1 << R1);
-	PORTB |= (1 << G2);
-	PORTD |= (1 << Y3);
-	PORTD |= (1 << R4);
+	PORTB |= (1 << R1);  //give red signal at road 1
+	PORTB |= (1 << G2);  //give green signal at road 2 
+	PORTD |= (1 << Y3);  //give yellow signal at road 3 
+	PORTD |= (1 << R4);  //give red signal at road 4
 }
