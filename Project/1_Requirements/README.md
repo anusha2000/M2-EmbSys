@@ -4,7 +4,7 @@
 |---|----------|
 |HLR1|Traffic signals should work on the time basis|
 |HLR2|IR sensor should sense the traffic on particular road|
-|HLR3|Once the traffic is clear in the particular road the traffic signal should come back to normal mode|
+|HLR3|Once the traffic is clear in the particular road then the traffic signal should come back to its normal mode|
 
 ## Low level requirements
 |HLID|LLID|Description|
