@@ -27,7 +27,9 @@
   
    9. [Description of schematic](#description-of-schematic)
     
-   9. [System Testing](#system-testing)
+   10. [Results](#results)
+   
+   10. [System Testing](#system-testing)
    
    10. [Test Plan and Output](#test-plan-and-output)
 
@@ -86,6 +88,21 @@ This circuit consists of components like
 * Arrange one IR sensor for each road.
 * Initially traffic system works based on time basis.
 * if any of the sensor detects, then the system allows the traffic of that particular path by glowing GREEN light.
+
+## Results
+|Case 1: traffic density is high at Road-1 | Case 2: traffic density is high at Road-2 |
+|-----|-------|
+|![1](https://user-images.githubusercontent.com/47153476/157268509-681b85a3-3ff0-4e2a-92d5-564702bd02de.PNG)|![2](https://user-images.githubusercontent.com/47153476/157268548-ea5642e1-5abe-4c82-9b26-563920b84ace.PNG)|
+
+
+| Case 3: traffic density is high at Road-3 | Case 4: traffic density is high at Road-4 |
+|------------|------------------|
+|![3](https://user-images.githubusercontent.com/47153476/157268579-65023b1b-cf57-4285-9712-c3ac4a9f8ba2.PNG)|![4](https://user-images.githubusercontent.com/47153476/157268598-22dbbe1f-ffa6-4cc8-9b48-cc51bca5388a.PNG)|
+
+
+
+
+
 
 ## Advantages
 Density based traffic signal control have many advantages compared totime based traffic control.
