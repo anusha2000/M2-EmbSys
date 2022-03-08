@@ -75,8 +75,7 @@ This circuit consists of components like
  #### Actuators
  * __LED's__ : LED's are binary actuator. Here LED's are used to reprent the traffic signals.In normal traffic system, we have to glow the LEDs on time basis. If the traffic density is high on any particular path, then glows green LED of that particular path and glows the red LEDs for remaining paths.
 
-## Flow chart
-![flowchart1](https://user-images.githubusercontent.com/47153476/157250811-38f52d40-90bd-4d28-8541-006d4052a1b5.PNG)
+
 
 ## Circuit diagram
 ![circuit_diagram](https://user-images.githubusercontent.com/47153476/157261236-cbbb542e-26a5-405e-a2ac-a112edce1ce1.PNG)
@@ -88,6 +87,9 @@ This circuit consists of components like
 * Arrange one IR sensor for each road.
 * Initially traffic system works based on time basis.
 * if any of the sensor detects, then the system allows the traffic of that particular path by glowing GREEN light.
+
+## Flow chart
+![flowchart1](https://user-images.githubusercontent.com/47153476/157250811-38f52d40-90bd-4d28-8541-006d4052a1b5.PNG)
 
 ## Results
 |Case 1: traffic density is high at Road-1 | Case 2: traffic density is high at Road-2 |
