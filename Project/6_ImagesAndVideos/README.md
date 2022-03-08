@@ -2,6 +2,10 @@
 ![circuit_diagram](https://user-images.githubusercontent.com/47153476/157261236-cbbb542e-26a5-405e-a2ac-a112edce1ce1.PNG)
 
 ## Results:
+### Output video:
+https://user-images.githubusercontent.com/47153476/157287412-7736db28-d857-4748-80aa-da97388cf24a.mp4
+
+## Images:
 ### Case 1: When Traffic density is high at Road-1 (G1-ON,Y2-ON,R3-ON & R4-ON)
 ![1](https://user-images.githubusercontent.com/47153476/157268509-681b85a3-3ff0-4e2a-92d5-564702bd02de.PNG)
 
