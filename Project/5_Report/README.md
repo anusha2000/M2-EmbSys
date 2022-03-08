@@ -7,38 +7,40 @@
    
   3. [Purpose](#purpose)
    
-  4. [Requriments](#requriments)
+  4. [Requirements](#requirements)
    
-     * [High Level Requriment](#high-level-requriment)
+     * [High Level Requirements](#high-level-requirements)
    
-     * [Low Level Requriment](#low-level-requriment)
+     * [Low Level Requirements](#low-level-requirements)
     
   5. [Block Diagram](#block-diagram)
    
-  6. [Components](#components)
+  6. [Components description](#components-description)
    
        * [Sensors](#sensors)
        
        * [Actuators](#actuators)
-       
-       * [User Interaction](#user-interaction)
    
-   7. [Circuit Diagram](#circuit-diagram)
+   7. [Flow chart](#flow-chart)
+   
+   8. [Circuit Diagram](#circuit-diagram)
   
-   7. [Description of schematic](#description-of-schematic)
+   9. [Description of schematic](#description-of-schematic)
     
    9. [System Testing](#system-testing)
    
    10. [Test Plan and Output](#test-plan-and-output)
 
-## Abstraction
+## Abstract
 In present, vehicular traffic is increasing throughout the world, especially in large urban areas. As the number of road user's increase constantly and current resources & infrastructures being limited; a smart traffic control will become a very important issue in the future. These needs have led to an ever increasing demand for an " intelligent " traffic control system. Therefore, optimization of traffic control to better accommodate this increasing demand is needed. This project will demonstrate the optimization of traffic lights in a city using wireless sensors. Traffic light optimization is a tough problem. With multiple junctions, the complexity increases as the state of one light node influences the flow of traffic towards many other nodes. proposing a traffic light controller that allows us to control and study different situations of traffic density. We sense the density of traffic using infra-red sensors. The key role behind the implementation of the " Traffic density based light control system " is to make use of an ATmega8 controller which performs processing of the real time data provided by the infra-red sensors, eventually controlling the traffic flow via the LED traffic lights.
 
 ## Introduction
 In  today’s  high  speed  life,traffic  congestion  becomes  a serious issue in our day to day activities. It brings down the productivity of  individual and thereby the society as lots of work hour is wasted in the signals. High volume of vehicles,  the inadequate  infrastructure  and the  irrational distribution of the signaling  system are  main reasons  for this  chaotic  congestions.  It  indirectly  also  adds  to  the increase in  pollution level as engines  remain on in  most cases,  a  huge  volume  of  natural  resources in  forms  of petrol  and  diesel  is  consumed  without  any  fruitful outcome. Therefore, in order to get rid of these problems or at least reduce them to significant level, newer schemes need  to  be  implemented  by  bringing  in  sensor  based automation  technique  in  this  field  of  traffic  signaling system. 
 
-## Requirements
+## Purpose
+The main objective of this project is to control the traffic lights or signal based on the density of the vehicles in particular lane.In this system, IR sensors are used to evaluate the density of the vehicles which are fixed within a fixed space.
 
+## Requirements
 ### High level Requirements
 |ID|Description |
 |---|----------|
@@ -54,25 +56,36 @@ In  today’s  high  speed  life,traffic  congestion  becomes  a serious issue i
 |     |LLR2|Then give green signal to that path and red to all other paths|
 
 ## Block Diagram
-![traffic](https://user-images.githubusercontent.com/47153476/155757605-6d51897b-782b-45b6-bc5d-fe4afba0b5ee.PNG)
-
+![traffic](https://user-images.githubusercontent.com/47153476/157258823-d98c107e-3678-4e4e-a3e4-803ae76c10ca.PNG)
 This circuit consists of components like
 * ATmega8 microcontroller
 * IR sensors
 * Traffic lights
 * Power supply
 
-## Components Description
+## Components description
 
-### ATmega8: 
-The ATmega8 is a low-power CMOS 8-bit microcontroller based on the AVR RISC architecture. By executing powerful instructions in a single clock cycle, the ATmega8 achieves throughputs approaching 1 MIPS per MHz, allowing the system designer to optimize power consumption ver- sus processing speed.
+* __ATmega8__ : The ATmega8 is a low-power CMOS 8-bit microcontroller based on the AVR RISC architecture. By executing powerful instructions in a single clock cycle, the ATmega8 achieves throughputs approaching 1 MIPS per MHz, allowing the system designer to optimize power consumption ver- sus processing speed.
 
-### LED's:
-Here LED's are used to reprent the traffic signals.In normal traffic system, we have to glow the LEDs on time basis. If the traffic density is high on any particular path, then glows green LED of that particular path and glows the red LEDs for remaining paths.
+#### Sensors
+ * __IR Sensor__ :In this system IR sensors used to measure the traffic density. We have to arrange one IR sensor for each road; these sensors always sense the traffic on that particular road. All these sensors are interfaced to the microcontroller. Based on these sensors, controller detects the traffic and controls the traffic system.
+ 
+ #### Actuators
+ * __LED's__ : LED's are binary actuator. Here LED's are used to reprent the traffic signals.In normal traffic system, we have to glow the LEDs on time basis. If the traffic density is high on any particular path, then glows green LED of that particular path and glows the red LEDs for remaining paths.
 
+## Flow chart
+![flowchart1](https://user-images.githubusercontent.com/47153476/157250811-38f52d40-90bd-4d28-8541-006d4052a1b5.PNG)
 
-### IR sensors:
-In this system IR sensors used to measure the traffic density. We have to arrange one IR sensor for each road; these sensors always sense the traffic on that particular road. All these sensors are interfaced to the microcontroller. Based on these sensors, controller detects the traffic and controls the traffic system.
+## Circuit diagram
+![circuit_diagram](https://user-images.githubusercontent.com/47153476/157261236-cbbb542e-26a5-405e-a2ac-a112edce1ce1.PNG)
+
+## Description of schematic
+* Connect four IR sensors to PORT C.
+* Connect LEDs to PORT B and PORT D.
+* Arrange all this LED’s same as like traffic lights.
+* Arrange one IR sensor for each road.
+* Initially traffic system works based on time basis.
+* if any of the sensor detects, then the system allows the traffic of that particular path by glowing GREEN light.
 
 ## Advantages
 Density based traffic signal control have many advantages compared totime based traffic control.
