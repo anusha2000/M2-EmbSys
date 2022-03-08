@@ -4,4 +4,4 @@
 | inc  | All header files|
 | src  | All source files|
 | Documentation| includes doxyfile and makefile|
-| Simulation | includes .hex and .elf files|
+| Simulation | includes simulIDE simulation files (.hex .elf & .o files)|
